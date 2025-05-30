@@ -90,6 +90,58 @@ export const request: RequestConfig = {
 
 - [🧐[问题 | question] 如何修改调试Mock](https://github.com/ant-design/ant-design-pro/issues/11446)
 
+## 登录
+
+在 Umi Max 框架中，登录后的 ​Token 存储方案​ 通常结合全局状态管理与浏览器本地存储机制实现。以下是具体实现方式及安全权衡：
+
+1、在运行时定义 `getInitialState` 方法，用于获取初始状态：
+
+```tsx
+export const getInitialState = async () => {
+  const token = localStorage.getItem('token');
+  if (token) {
+    const userInfo = await fetchUserInfo();
+    return {
+      currentUser: {...userInfo, token } as API.CurrentUser,
+    };
+  }
+  return {};
+};
+```
+
+2、登录成功后，获取 Token 并存储到浏览器的 Local Storage 中，并使用 `setInitialState` 方法把 token 更新全局状态：
+
+```tsx
+import { useModel } from '@umijs/max';
+import { flushSync } from 'react-dom';
+
+const Login = () => {
+  const { initialState } = useModel('@@initialState');
+  const fetchUserInfo = async (token: string) => {
+    const userInfo = await initialState?.fetchUserInfo?.();
+    localStorage.setItem('token', token);
+    if (userInfo) {
+      flushSync(() => {
+        setInitialState((s) => ({
+          ...s,
+          currentUser: { ...userInfo, token } as API.CurrentUser,
+        }));
+      });
+    }
+  };
+
+  const handleSubmit = async () => {
+    const token = await login({ account: 'admin', password: '123456' });
+    if (token) {
+      message.success('登录成功！');
+      await fetchUserInfo();
+    }
+  };
+}
+
+export default Login;
+```
+
 ## 部署
 
 ### netlify
