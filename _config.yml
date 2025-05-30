@@ -29,7 +29,7 @@ timezone: Asia/Hong_Kong
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://youngjuning.js.org
+url: https://youngjuning.cn
 permalink: :hash/
 permalink_defaults:
 pretty_urls:
@@ -48,6 +48,9 @@ skip_render:
   - "baidu_verify_codeva-seFAiiGXVd.html"
   - "game/**"
   - "game001/**"
+  - "game002/**"
+  - "game003/**"
+  - "game004/**"
   - "assets/**"
   - "best/**"
   - "new/**"
