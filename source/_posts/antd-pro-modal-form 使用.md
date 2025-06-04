@@ -157,10 +157,10 @@ export default () => {
           </Button>
         }
         request={async () => ({
-          name: "紫升的项目1"
+          name: "俊宁的项目1"
         }}}
         initialValues={{
-          name: "紫升的项目2"
+          name: "俊宁的项目2"
         }}
         onFinish={async (values) => {
           console.log(values.name);
@@ -174,8 +174,8 @@ export default () => {
           label="项目名称"
           tooltip="最长为 24 位"
           placeholder="请输入名称",
-          request={async () => "紫升的项目3"}
-          initialValue={"紫升的项目4"}
+          request={async () => "俊宁的项目3"}
+          initialValue={"俊宁的项目4"}
           rules={[
             {
               required: true,
