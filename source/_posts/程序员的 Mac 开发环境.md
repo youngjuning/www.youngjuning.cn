@@ -451,4 +451,4 @@ $ echo "set showcmd" >> ~/.vimrc
 $ source ~/.vimrc
 ```
 
-> 本文首发于「[俊宁的博客](https://youngjuning.cn/)」，同步于「[掘金专栏](https://juejin.cn/user/325111174662855)」。
+> 本文首发于「[俊宁的博客](https://www.youngjuning.cn/)」，同步于「[掘金专栏](https://juejin.cn/user/325111174662855)」。

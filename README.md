@@ -1,7 +1,7 @@
 # 俊宁的博客
 
-[![俊宁](https://img.shields.io/website-up-down-green-red/https/youngjuing.js.org.svg)](https://youngjuning.cn)
-[![github pages](https://github.com/youngjuning/youngjuning.cn/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/youngjuning/youngjuning.cn/actions/workflows/gh-pages.yml)
+[![俊宁](https://img.shields.io/website-up-down-green-red/https/www.youngjuning.cn.svg)](https://www.youngjuning.cn)
+[![github pages](https://github.com/youngjuning/www.youngjuning.cn/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/youngjuning/www.youngjuning.cn/actions/workflows/gh-pages.yml)
 [![俊宁](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](https://guides.github.com/features/mastering-markdown/)
 
 ## 前端学习路线
