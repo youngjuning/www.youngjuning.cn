@@ -60,3 +60,9 @@ tags:
 数据库名选择新建网站时的：
 
 ![](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1753545846823.png)
+
+## wordpress 设置
+
+permalink 设置为 `/%category%/%postname%/`（电商、新闻门户） 或者 `/%postname%/`（博客、企业站）：
+
+![](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1753603318808.png)
