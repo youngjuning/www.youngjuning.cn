@@ -54,3 +54,9 @@ tags:
 重定向设置，选择 “301 重定向”，点击 “提交”。
 
 ![](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1753543929126.png)
+
+## wordpress 初始化
+
+数据库名选择新建网站时的：
+
+![](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1753545846823.png)
