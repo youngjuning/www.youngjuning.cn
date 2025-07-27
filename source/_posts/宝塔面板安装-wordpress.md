@@ -66,3 +66,7 @@ tags:
 permalink 设置为 `/%category%/%postname%/`（电商、新闻门户） 或者 `/%postname%/`（博客、企业站）：
 
 ![](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1753603318808.png)
+
+## wordpress 主题
+
+- [Meteor](https://www.xhtheme.com/themes/meteor-theme)：一款专为自媒体人、博主和内容创作者精心打造的WordPress主题
