@@ -1,7 +1,7 @@
 ---
 title: '宝塔面板安装 WordPress 详细教程：从零开始搭建网站'
 description: '详细介绍如何使用宝塔面板快速安装 WordPress，包括环境配置、数据库创建、域名绑定等完整建站流程。适合新手站长的宝塔 WordPress 搭建指南。'
-cover: ''
+cover: 'https://cdn.jsdelivr.net/gh/youngjuning/images@main/1753603666557.png'
 date: 2025-07-26 18:07:05
 categories:
   - 建站教程
